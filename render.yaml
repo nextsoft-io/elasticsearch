@@ -10,7 +10,7 @@ services:
   autoDeploy: false
   envVars:
   - key: ES_JAVA_OPTS
-    value: "-Xms1g -Xmx1g"
+    value: "-Xms2g -Xmx2g"
   - key: discovery.type
     value: single-node
   - key: cluster.name
