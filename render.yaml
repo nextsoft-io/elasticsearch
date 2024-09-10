@@ -1,6 +1,6 @@
 services:
 - type: pserv
-  name: elasticsearch
+  name: remotely_elasticsearch
   env: docker
   plan: standard
   disk:
